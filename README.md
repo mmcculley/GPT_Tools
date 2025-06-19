@@ -45,16 +45,31 @@ Each tool folder should include:
 * **Installation** – `pip install`, `npm install`, etc.
 * **Examples** – sample input & expected output
 
+Example template:
+
+````
+### Tool: feature_name
+**Brief**: What it does  
+**Install**: pip/npm …  
+**Usage**: `script.py --flag value`  
+**Example**:
+```bash
+> script.py input.txt
+Output: …
+````
+
+````
+
 ---
 
 ## 🔧 Getting Started
 
 1. **Clone the repo**
-
    ```bash
    git clone https://github.com/mmcculley/GPT_Tools.git
    cd GPT_Tools
-   ```
+````
+
 2. **Install dependencies** (example for a Python tool)
 
    ```bash
@@ -84,6 +99,7 @@ Please follow these guidelines:
 * Follow repository `LICENSE.md` (e.g. CC BY-NC-SA 4.0)
 * Write unit tests where possible
 * Document inputs, outputs, and environment/runtime clearly
+* Follow a common code style or include `.editorconfig`
 
 ---
 
@@ -104,9 +120,13 @@ Feel free to open issues, submit PRs, or reach out via GitHub discussions.
 
 ## 📌 To Do / Roadmap
 
-* [ ] New tool: GPT Template Builder
-* [ ] Example collection for each script
-* [ ] Docker container for multi-tool environments
-* [ ] Add automated testing with GitHub Actions
+* [ ] Add mini `README.md` to each tool folder
+* [ ] Add `.gitignore` entries for OS/IDE files (e.g., `desktop.ini`, `.vscode/`)
+* [ ] Create `install-all.sh` for full project setup
+* [ ] Add CI (GitHub Actions) for linting or testing
+* [ ] Add a `tool-deps.csv` table summarizing language & dependencies
+* [ ] Add contributor style guidelines and `.editorconfig`
+* [ ] Create top-level `examples/` and/or demo script
+* [ ] Add usage screenshots or GIFs per tool
 
 ---
