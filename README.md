@@ -123,10 +123,6 @@ Feel free to open issues, submit PRs, or reach out via GitHub discussions.
 * [ ] Add mini `README.md` to each tool folder
 * [ ] Add `.gitignore` entries for OS/IDE files (e.g., `desktop.ini`, `.vscode/`)
 * [ ] Create `install-all.sh` for full project setup
-* [ ] Add CI (GitHub Actions) for linting or testing
-* [ ] Add a `tool-deps.csv` table summarizing language & dependencies
 * [ ] Add contributor style guidelines and `.editorconfig`
-* [ ] Create top-level `examples/` and/or demo script
-* [ ] Add usage screenshots or GIFs per tool
 
 ---
