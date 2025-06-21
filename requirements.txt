@@ -1,0 +1,16 @@
+# GPT_Tools requirements.txt
+
+# Standard libraries used:
+# json, re, os, sys, time, csv, argparse, pathlib, datetime, collections, ctypes (Windows only)
+
+# No external dependencies are required beyond the standard library.
+
+# However, for compatibility with tools that parse requirements files:
+# (this line is optional but useful for indicating Python version compatibility)
+
+python>=3.8
+
+# Future tools may use:
+# pandas>=1.5.0
+# rich>=13.0.0
+# openai>=1.0.0
